@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap 4 flex</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/Styles.css">
+  <link rel="stylesheet" href="fontawesome-free-5.5.0-web/css/all.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body class="pr-0">
+  <!--Header-->
+  <div class="container-fluid c1 ">
+    <div class="d-flex flex-row ">
+      <span class=" btn p-2 gg" data-toggle="close"><a class="icon">
+          <i class="fa fa-bars text-white"> </i>
+        </a>
+      </span>
+      <a class="p-2  ml-auto text-white f1">My Dashboard</a>
+    </div>
+  </div>
+
+  <!--sidbar/menu left-->
+  <div class="countiner-fluid">
+    <div class="d-flex h-100 ">
+      <div class="sidenav bg-white h-100 animated fadeInLeft">
+        <div class="d-flex">
+          <div class="p-1 ml-1"><img src="images/avatar2.png" class="rounded-circle mt-4 " alt="pic" style=" width:46px;"></div>
+          <div class="p-2 mt-4 ml-4"><span>"welcome"<span class="font-weight-bold text-capitalize ">mike</span></span>
+            <div class="d-flex flex-row  mb-3 ml-2 ">
+              <div class="p-2 "><i class="fa fa-envelope"></i></div>
+              <div class="py-2 px-4"><i class="fa fa-user"></i></div>
+              <div class="py-2 px-4"><i class="fa fa-cog"></i></div>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-2">
+        <div class="d-flex flex-column h-75 ml-1">
+          <div class="text-dark mt-4">
+            <h4 class="font-weight-normal ml-3 ">Dashboard</h4>
+          </div>
+          <a class="text-dark px-3 py-2 active" href="#services"><i class="fa fa-users fa-fw"></i>&nbsp; Overview</a>
+          <a class="text-dark px-3 py-2" href="#clients"><i class="fa fa-eye fa-fw"></i>&nbsp; Views</a>
+          <a class="text-dark px-3 py-2" href="#contact"><i class="fa fa-users fa-fw"></i>&nbsp; Traffic</a>
+          <a class="text-dark px-3 py-2" href="#contact"><i class="fa fa-bullseye fa-fw"></i>&nbsp; Geo</a>
+          <a class="text-dark px-3 py-2" href="#contact"><i class="far fa-gem"></i> &nbsp; Orders</a>
+          <a class="text-dark px-3 py-2" href="#contact"><i class="fa fa-bell fa-fw"></i>&nbsp; News</a>
+          <a class="text-dark px-3 py-2" href="#contact"><i class="fas fa-university"></i>&nbsp; General</a>
+          <a class="text-dark px-3 py-2" href="#contact"><i class="fas fa-history"></i>&nbsp; History</a>
+          <a class="text-dark px-3 py-2" href="#contact"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a>
+        </div>
+      </div>
+    </div>
+    <!--container-cotent-->
+
+    <div class="p-2 flex-grow-1 c2  scal animated fadeInright">
+      <h4 class="pt-3 font-weight-normal f1 ml-2 mt-5"><b><i class="fas fa-tachometer-alt"></i> My Dashboard </b></h4>
+      <div class="d-flex flex-md-row  flex-column mt-1 car ">
+        <div class="p-2 c3  h-100 text-white ml-3 w-100 flex-fill ">
+          <div><i class="fa fa-comment w-75 h-50 text-white f2"></i>52</div>
+          <h4 class="f3 py-4 px-1">Messeges</h4>
+        </div>
+        <div class="p-2 bg-primary c4  h-100 text-white ml-3 w-100 flex-fill">
+          <div><i class="fa fa-eye w-75 h-50 text-white f2"></i></i>99</div>
+          <h4 class="f3 py-4 px-1">Views</h4>
+        </div>
+        <div class="p-2 c4 c5 h-100 text-white ml-3 w-100 flex-fill">
+          <div><i class="fa fa-share-alt w-75 h-50 text-white f2"></i>23</div>
+          <h4 class="f3 py-4 px-1">Shares</h4>
+        </div>
+        <div class="p-2 c4 c6 h-100 text-white ml-3 w-100 flex-fill ">
+          <div><i class="fa fa-users  w-75 h-50 text-white f2"></i>50</div>
+          <h4 class="f3 py-4 px-1">Users</h4>
+        </div>
+      </div>
+
+      <div class="d-flex flex-row mt-1">
+        <div class="p-2 w-25">
+          <h4 class="pt-3 font-weight-normal f4 ml-3">Regions</h4>
+        </div>
+        <div class="p-2 flex-grow-1 ">
+          <h4 class="pt-3 font-weight-normal f4 ml-5 pl-5">Feeds</h4>
+        </div>
+      </div>
+      <div class="d-flex flex-md-row flex-column mt-1 ">
+        <div class="p-2 "><img src="images/region.jpg" class="w-100" id="h1" alt=""> </div>
+        <div class="p-2 flex-grow-1 w-100">
+          <table class="table table-striped ">
+            <tbody>
+              <tr class="bg-white px-5">
+                <td><i class="fa fa-user text-primary"></i></td>
+                <td>New record, over 90 views.</td>
+                <td class="ml-5"><i>10 mins</i></td>
+              </tr>
+              <tr class="px-5">
+                <td><i class="fa fa-bell text-danger"></i></td>
+                <td>Database error.</td>
+                <td><i>15 mins</i></td>
+              </tr>
+              <tr class="bg-white ">
+                <td><i class="fa fa-users c7"></i></td>
+                <td>New record, over 40 users.</td>
+                <td><i>17 mins</i></td>
+              </tr>
+              <tr class="px-5">
+                <td><i class="fa fa-comment text-danger"></i></td>
+                <td>New comments.</td>
+                <td><i>25 mins</i></td>
+              </tr>
+              <tr class="bg-white px-5">
+                <td><i class="fa fa-bookmark text-primary "></i></td>
+                <td>Check transactions.</td>
+                <td><i>28 mins</i></td>
+              </tr>
+              <tr class="px-5">
+                <td><i class="fa fa-laptop text-danger"></i></td>
+                <td>CPU overload.</td>
+                <td><i>35 mins</i></td>
+              </tr>
+              <tr class="bg-white px-5">
+                <td><i class="fa fa-share-alt w-75 text-success"></i></td>
+                <td>New shares.</td>
+                <td><i>39 mins</i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="d-flex flex-row mt-1">
+        <div class="p-2">
+          <h4 class="pt-3 font-weight-normal f4 ">General Stats</h4>
+          <h4 class="pt-3 font-weight-normal f4 ">New Visitors</h4>
+        </div>
+      </div>
+      <div class="progress w-100 bg-secondary" style="height:30px">
+        <div class="progress-bar bg-success" style="width:25%;height:30px">+25%</div>
+      </div>
+      <div class="d-flex flex-row mt-1">
+        <div class="p-2">
+          <h4 class="pt-3 font-weight-normal f4 ">New Users</h4>
+        </div>
+      </div>
+      <div class="progress w-100 bg-secondary" style="height:30px">
+        <div class="progress-bar c6 text-dark f1" style="width:50%;height:30px">50%</div>
+      </div>
+      <div class="d-flex flex-row mt-1">
+        <div class="p-2">
+          <h4 class="pt-3 font-weight-normal f4">Bounce Rate</h4>
+        </div>
+      </div>
+      <div class="progress w-100 bg-secondary" style="height:30px">
+        <div class="progress-bar c8 f4" style="width:75%;height:30px">75%</div>
+      </div>
+      <div class="d-flex flex-row mt-1">
+        <div class="p-2">
+          <h4 class="pt-3 font-weight-normal f4">Countries</h4>
+        </div>
+      </div>
+      <div class="container-fluid col-lg-12 col-sm-10">
+        <div class="d-flex flex-row mt-1">
+          <table class="table table-hover table-striped border py-0 h-50">
+            <tr class="bg-white hover">
+              <td>United States</td>
+              <td>65%</td>
+            </tr>
+            <tr class=" hover">
+              <td>UK</td>
+              <td>15.7%</td>
+            </tr>
+            <tr class="bg-white hover">
+              <td>Russia</td>
+              <td>5.6%</td>
+            </tr>
+            <tr class=" hover">
+              <td>Spain</td>
+              <td>2.1%</td>
+            </tr>
+            <tr class="bg-white hover">
+              <td>India</td>
+              <td>1.9%</td>
+            </tr>
+            <tr class=" hover">
+              <td>France</td>
+              <td>1.5%</td>
+            </tr>
+          </table>
+
+        </div>
+      </div>
+      <div class="d-flex flex-row mt-1">
+        <div class="p-2">
+          <button class="btn c9 text-white">More Countries <b> <i class="fa fa-arrow-right"></i> </b> </button>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-5 ">
+
+        <h5 class="ml-1">Recent Users</h5>
+        <ul class=" card  bg-white shadow">
+          <li class="pt-2">
+            <img src="images/avatar2.png" class="rounded-circle" style="width:50px">
+            <span class="f1"> <b> Mike</b></span>
+          </li>
+
+          <hr>
+          <li class="pt-2">
+            <img src="images/avatar2.png" class="rounded-circle" style="width:50px">
+            <span class="f1"> <b>John</b> </span>
+          </li>
+          <hr>
+          <li class="pb-2">
+            <img src="images/avatar2.png" class="rounded-circle" style="width:50px">
+            <span class="f1"> <b> Dave</b> </span>
+          </li>
+        </ul>
+        <br>
+        <h4 class="f1">Recent Comments</h4>
+        <div class="media p-3">
+          <img src="images/avatar2.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:80px;">
+          <div class="media-body ml-5 ">
+            <h4>John Doe <small><i class="f5">Sep 29, 2014, 9:12 PM</i></small></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="media p-3">
+          <img src="images/avatar2.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:80px;">
+          <div class="media-body ml-5 ">
+            <h4>John Doe <small><i class="f5">Sep 29, 2014, 9:12 PM</i></small></h4>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      
+      </div>
+      <div class="d-flex flex-md-row flex-column  flex-fill mx-0 c10">
+        <div class="p-2 text-light  mb-3 mx-auto mx-auto w-25 flex-fill">
+          <h4 class=" mt-5 f1" id="Border1">Demographic</h4>
+          <p>Language</p>
+          <p>Country</p>
+          <p>City</p>
+        </div>
+        <div class="p-2 text-light  mb-3 mx-auto w-25 flex-fill">
+          <h4 class=" mt-5  f1" id="Border2">system</h4>
+          <p>Browser</p>
+          <p>OS</p>
+          <p>More</p>
+        </div>
+        <div class="p-2 text-light mb-3 mx-auto w-25 flex-fill">
+          <h4 class="mt-5  f1" id="Border3">Target</h4>
+          <p>Users</p>
+          <p>Active</p>
+          <p>Geo</p>
+          <p>Interests</p>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer class="container p-2 mt-4  ">
+        <h4 class="f3 p-2">FOOTER</h4>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="text-dark f7">w3.css</a></p>
+      </footer>
+
+      <!-- End page content -->
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".gg").click(function () {
+        let tagglemy = $(".gg").attr("data-toggle");//dastresi de in attr dar in class mitone bedone var bashe;
+        if (tagglemy == "close") {
+          $(".sidenav").css("display", "block");
+          $(".gg").attr("data-toggle", "open");
+        } else {
+          $(".sidenav").css("display", "none");
+          $(".gg").attr("data-toggle", "close");
+        }
+
+      });
+    })
+  </script>
+</body>
+
+</html>
